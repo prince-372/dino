@@ -5,7 +5,7 @@ import BabyDino from "../assets/image/CartoonCircle.webp";
 import BottomDino from "../assets/image/CartoonBottomImg.webp";
 import TreeLayer from "../assets/image/TreeLayer.webp";
 import TokenDino from "../assets/image/tokencrocochris.webp";
-import TokenomicsLayer from "../assets/image/takkenomics-layar.png";
+import TokenomicsLayer from "../assets/image/takkenomics-layar.webp";
 
 const Tokenomics = () => {
   return (

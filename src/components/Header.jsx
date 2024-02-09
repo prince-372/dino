@@ -1,5 +1,5 @@
 import React from "react";
-import Aeroplane from "../assets/image/aeroplane.png";
+import Aeroplane from "../assets/image/aeroplane.webp";
 import CycleDino from "../assets/image/croco-with-cycle.webp";
 import SmallCycle from "../assets/image/croco-with-glass.webp";
 import Mynav from "./Mynav";

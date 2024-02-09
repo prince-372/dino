@@ -1,5 +1,5 @@
 import React from "react";
-import Backbtn from "../assets/image/up-arrow.png";
+import Backbtn from "../assets/image/up-arrow.webp";
 
 const BackToTop = () => {
   const [position, setPosition] = React.useState({ top: 0, left: 0 });
