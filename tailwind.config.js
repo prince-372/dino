@@ -20,7 +20,10 @@ module.exports = {
     },
     backgroundImage: {
       bgheader: "url(/src/assets/image/bgheaderr.webp)",
-      BgBtnJoin: "url(/src/assets/image/bg-btn.png)",
+      BgBtnJoin: "url(/src/assets/image/bg-btn.webp)",
+    },
+    backgroundSize: {
+      Bgsize: "100% 100%",
     },
   },
   plugins: [],

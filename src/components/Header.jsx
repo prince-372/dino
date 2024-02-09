@@ -6,7 +6,7 @@ import Mynav from "./Mynav";
 
 const Hero = () => {
   return (
-    <div className="bg-bgheader bg-no-repeat bg-center bg-cover ">
+    <div className="bg-bgheader bg-no-repeat bg-cover  bg-bottom sm:bg-Bgsize">
       <div className=" relative sm:pb-[385px] pb-[270px] overflow-hidden">
         <Mynav />
         <div className="container mx-auto xl:max-w-[1157px] xl:px-3 px-6 lg:pt-[28px] pt-[20px]">
