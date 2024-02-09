@@ -1,48 +1,55 @@
 import React from "react";
+import Aeroplane from "../assets/image/aeroplane.png";
+import CycleDino from "../assets/image/croco-with-cycle.webp";
+import SmallCycle from "../assets/image/croco-with-glass.webp";
 import Mynav from "./Mynav";
-import aeroplane from "../assets/image/aeroplane.png";
-import dinocycle from "../assets/image/header-dino-cycle.png";
-import dinoscoter from "../assets/image/header-dino.png";
 
-const Header = () => {
+const Hero = () => {
   return (
-    <div className="bg-bgheader bg-center bg-cover bg-no-repeat min-h-[877px] relative">
-      <img
-        className=" absolute bottom-[17%] right-[39%]"
-        src={dinocycle}
-        alt="dinocycle"
-      />
-      <img
-        className=" absolute bottom-[10%] right-[9%]"
-        src={dinoscoter}
-        alt="dinoscoter"
-      />
-      <div className="max-w-[1164px] px-3 mx-auto">
+    <div className="bg-bgheader bg-no-repeat bg-center bg-cover ">
+      <div className=" relative sm:pb-[385px] pb-[270px] overflow-hidden">
         <Mynav />
-        <div className=" grid lg:grid-cols-2 grid-cols-1 pt-[83px]">
-          <div className=" flex justify-center items-center">
-            <div>
-              <img src={aeroplane} alt="aeroplane" />
+        <div className="container mx-auto xl:max-w-[1157px] xl:px-3 px-6 lg:pt-[28px] pt-[20px]">
+          <div className="flex flex-row flex-wrap lg:mt-[83px] mt-[45px] justify-between ">
+            <div
+              data-aos="fade-down-left"
+              className="lg:w-5/12 w-full flex lg:items-end lg:justify-center"
+            >
+              <img
+                src={Aeroplane}
+                alt="Aeroplane"
+                className="w-full utility_croco1 lg:max-w-[393px] max-w-[200px] helo-header"
+              />
+            </div>
+            <div
+              data-aos="fade-down-left"
+              className="lg:w-7/12 w-full flex flex-col items-center justify-center lg:mt-0 mt-7 pb-[18px]"
+            >
+              <h2 className="lg:text-[175.636px] sm:text-[125px] text-[100px] font-dino font-normal text-center leading-[82%] text-[#FBA11D] drop-shadow-[2px_6px_0px_#000]">
+                D<span className="text-[#23AAAC]">I</span>
+                <span className="text-[#D45B07]">N</span>
+                <span className="text-[#8EC627]">O</span>
+              </h2>
+              <h2 className="lg:text-[175.636px] sm:text-[125px] text-[100px] font-dino font-normal text-center leading-[82%] text-[#8EC627] drop-shadow-[2px_6px_0px_#000]">
+                L<span className="text-[#FCCA2B]">F</span>
+                <span className="text-[#8F78D2]">G</span>
+              </h2>
             </div>
           </div>
-          <div>
-            {" "}
-            <h2 className="font-dino text-center  sm:text-[175px] text-[135px] mt-1 font-normal text-[#FBA11D] leading-[166px] drop-shadow-[2px_6px_0px_#000]">
-              <span className=" text-[#FBA11D]">D</span>
-              <span className="text-[#23AAAC]">I</span>
-              <span className="text-[#D45B07]">N</span>
-              <span className="text-[#8EC627]">O</span>
-            </h2>
-            <p className=" font-dino text-center sm:text-[175px] text-[135px] mt-1 font-normal text-[#FBA11D] leading-[166px] drop-shadow-[2px_6px_0px_#000]">
-              <span className="text-[#FCCA2B]">L</span>
-              <span className="text-[#8F78D2]">F</span>
-              <span className="text-[#8EC627]">G</span>
-            </p>
-          </div>
         </div>
+        <img
+          src={CycleDino}
+          alt="CycleDino"
+          className=" animate-cycle2 sm:max-w-[132px] walking-img2 max-w-[94px] w-full absolute bottom-[18%] sm:right-[38%] right-[58%]"
+        />
+        <img
+          src={SmallCycle}
+          alt="SmallCycle"
+          className=" animate-cycle xl:max-w-[211px] walking-img sm:max-w-[180px] max-w-[108px] w-full absolute xl:bottom-[10%] md:bottom-[9%] sm:bottom-[8%] bottom-[9%] sm:right-[9%] right-[4%]"
+        />
       </div>
     </div>
   );
 };
 
-export default Header;
+export default Hero;
