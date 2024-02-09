@@ -26,7 +26,7 @@ const Tokenomics = () => {
           alt="AboutLayor"
           className="absolute top-[-2px] left-0 right-0 w-full"
         />
-        <div className="container relative z-[1] xl:max-w-[1147px] xl:px-3 px-6 mx-auto lg:pt-[250px] sm:pt-[120px] pt-[80px] xl:pb-[540px] lg:pb-[450px] sm:pb-[200px] pb-[175px]">
+        <div className="container relative z-[1] xl:max-w-[1147px] xl:px-3 px-6 mx-auto lg:pt-[200px] sm:pt-[120px] pt-[80px] xl:pb-[430px] lg:pb-[450px] sm:pb-[200px] pb-[175px]">
           <h2
             data-aos="fade-down"
             className="text-white font-normal font-chewy sm:text-[64px] text-[35px] leading-[131%] text-center lg:mb-[166px] mb-[100px]"
