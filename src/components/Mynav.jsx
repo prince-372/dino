@@ -129,17 +129,17 @@ const Mynav = () => {
               <span
                 className={`${
                   nav ? "" : "rotate-[50deg] translate-y-[15px]"
-                } bg-black h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
+                } bg-[#FBA11D] h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
               ></span>
               <span
                 className={`${
                   nav ? "" : "hidden"
-                } bg-black h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
+                } bg-[#FBA11D] h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
               ></span>
               <span
                 className={`${
                   nav ? "" : "rotate-[-50deg] translate-y-[-50%]"
-                } bg-black h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
+                } bg-[#FBA11D] h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
               ></span>
             </div>
           </div>

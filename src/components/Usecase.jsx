@@ -35,14 +35,14 @@ const Usecase = () => {
           <img
             src={crocoWithGlasses}
             alt="crocoWithGlasses"
-            className="sm:max-w-[253px] max-w-[160px] lg:mt-[-132px] mt-6  lg:h-[332px] w-full"
+            className="sm:max-w-[253px] max-w-[160px] myaeroplane lg:mt-[-132px] mt-6  lg:h-[332px] w-full"
           />
         </div>
         <div className="relative max-lg:overflow-hidden z-20 lg:mt-[125px] mt-[60px] rounded-[20px] border border-solid bg-[#09655A] lg:py-[95px] pt-[40px] lg:pr-[27px] lg:pl-0 px-5 lg:h-[266px] border-white flex lg:justify-between lg:flex-row flex-col-reverse lg:items-center ">
           <img
             src={crocoWithCycle}
             alt="crocoWithCycle"
-            className="sm:max-w-[267px] utility_croco1 max-w-[160px] lg:h-[334px] lg:translate-y-[-35px] lg:mt-0 mt-7 lg:ml-[-6px]"
+            className="sm:max-w-[267px] myaeroplane max-w-[160px] lg:h-[334px] lg:translate-y-[-35px] lg:mt-[-75px] mt-7 lg:ml-[-5px]"
           />
           <div data-aos="fade-left" className="">
             <p className="sm:text-[32px] text-[25px] font-normal lg:text-end text-center text-white leading-[119%] font-balsamiq">
