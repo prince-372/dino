@@ -9,7 +9,7 @@ const Mynav = () => {
     document.body.classList.remove("max-lg:overflow-hidden");
   }
   return (
-    <div  className="max-w-[1140px] mx-auto px-3 pt-7">
+    <div className="max-w-[1140px] mx-auto px-3 pt-7">
       <div className="flex justify-between items-center py-[10px] lg:pt-[4px] lg:pb-[5.50px] pl-[24px] pr-[7.42px] bg-white rounded-[61.102px] border-b-[4px] border-solid border-black">
         <h2 className="font-dino cursor-pointer lg:text-[39.125px] text-[35px] mt-1 font-normal text-[#FBA11D] leading-[94%] drop-shadow-[0px_1.337px_0px_#000]">
           <span className=" text-[#FBA11D]">D</span>
@@ -64,21 +64,21 @@ const Mynav = () => {
             </li>
             <li className=" flex lg:hidden gap-2 items-center">
               <a
-                className=" hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)]"
+                className=" hover:-translate-y-1 duration-300 "
                 href="https://twitter.com/i/flow/login"
                 target="_blank"
               >
                 <Twitter />
               </a>
               <a
-                className=" hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)]"
+                className=" hover:-translate-y-1 duration-300 "
                 href="https://discord.com/"
                 target="_blank"
               >
                 <Discord />
               </a>
               <a
-                className=" hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)]"
+                className=" hover:-translate-y-1 duration-300 "
                 href="https://www.instagram.com/"
                 target="_blank"
               >

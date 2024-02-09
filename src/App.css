@@ -26,3 +26,15 @@ scroll-behavior: smooth;
   font-family: 'Balsamiq Sans',
     sans-serif;
 }
+
+.myaeroplane {
+  animation: myrotate 4s linear infinite alternate;
+}
+@keyframes myrotate {
+  0% {
+    transform: rotate(4deg);
+  }
+  100% {
+    transform: rotate(-4deg);
+  }
+}

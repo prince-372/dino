@@ -18,7 +18,7 @@ const Hero = () => {
               <img
                 src={Aeroplane}
                 alt="Aeroplane"
-                className="w-full utility_croco1 lg:max-w-[393px] max-w-[200px] helo-header"
+                className="w-full myaeroplane utility_croco1 lg:max-w-[393px] max-w-[200px] helo-header"
               />
             </div>
             <div
