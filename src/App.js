@@ -11,6 +11,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import BackToTop from "./components/Backtotop";
 import Loader from "./components/Priloder";
+import Mynav from "./components/Mynav";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -19,7 +20,8 @@ function App() {
     });
   }, []);
   return (
-    <div>
+    <>
+      <Mynav />
       <Header />
       <About />
       <Tokenomics />
@@ -29,7 +31,7 @@ function App() {
       <Footer />
       <BackToTop />
       <Loader />
-    </div>
+    </>
   );
 }
 

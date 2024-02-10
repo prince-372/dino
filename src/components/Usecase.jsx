@@ -7,7 +7,12 @@ import TimelineLayer from "../assets/image/roadmaplayer.webp";
 
 const Usecase = () => {
   return (
-    <div className="relative overflow-hidden xl:pb-[466px] md:pb-[300px] sm:pb-[190px] xl:pt-[230px] sm:pt-[150px] pt-[100px] pb-[150px]">
+    <div className="relative overflow-x-clip ">
+      <img
+        src={utilityLayer}
+        alt="utilityLayer"
+        className=" -translate-y-2 w-full"
+      />
       <div className="container mx-auto xl:max-w-[1038px] xl:px-3 px-6 relative z-10">
         <h2 className="font-chewy sm:text-[64px] text-[35px] font-normal text-white text-center leading-[132%]">
           Utility and Usecase
@@ -44,7 +49,7 @@ const Usecase = () => {
             alt="crocoWithCycle"
             className="sm:max-w-[267px] myaeroplane max-w-[160px] lg:h-[334px] lg:translate-y-[-35px] lg:mt-[-75px] mt-7 lg:ml-[-5px]"
           />
-          <div data-aos="fade-left">
+          <div data-aos="fade-down">
             <p className="sm:text-[32px] text-[25px] font-normal lg:text-end text-center text-white leading-[119%] font-balsamiq">
               We are going to have staking and buyback/ burning mechanism
             </p>
@@ -56,15 +61,11 @@ const Usecase = () => {
           className="lg:max-w-[320px] max-w-[200px] w-full absolute lg:right-[-20%] right-[-14%] bottom-0"
         />
       </div>
-      <img
-        src={utilityLayer}
-        alt="utilityLayer"
-        className="absolute top-0 left-0 right-0 w-full"
-      />
+
       <img
         src={TimelineLayer}
         alt="TimelineLayer"
-        className="absolute left-0 right-0 bottom-[-13px] w-full"
+        className=" translate-y-5 sm:mt-[168px] mt-[70px] w-full"
       />
     </div>
   );

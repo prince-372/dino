@@ -9,7 +9,7 @@ const Mynav = () => {
     document.body.classList.remove("max-lg:overflow-hidden");
   }
   return (
-    <div className="max-w-[1140px] mx-auto px-3 pt-7">
+    <div className="max-w-[1140px] mx-auto px-3 pt-7 relative z-50">
       <div className="flex justify-between items-center py-[10px] lg:pt-[4px] lg:pb-[5.50px] pl-[24px] pr-[7.42px] bg-white rounded-[61.102px] border-b-[4px] border-solid border-black">
         <h2 className="font-dino cursor-pointer lg:text-[39.125px] text-[35px] mt-1 font-normal text-[#FBA11D] leading-[94%] drop-shadow-[0px_1.337px_0px_#000]">
           <span className=" text-[#FBA11D]">D</span>
