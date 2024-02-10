@@ -10,7 +10,7 @@ const Roadmap = () => {
         <div className='bg-[#09655A]'>
             <div className='max-w-[1140px] mx-auto px-3'>
                 <div id='Roadmap' className=' sm:pt-0 pt-[45px] lg:pb-[208px] md:pb-[150px] sm:pb-[120px] pb-[90px] relative'>
-                    <h2 className='sm:text-[64px] text-[40px] font-normal text-white text-center font-chewy leading-[83.63px] md:mb-[97px]leading-[132%] relative z-10 mb-[40px]'>Roadmap</h2>
+                    <h2 className='sm:text-[64px] text-[40px] font-normal text-white text-center font-chewy leading-[83.63px] md:mb-[97px] relative z-10 mb-[40px]'>Roadmap</h2>
                     <div className="container mx-auto xl:max-w-[1118px] xl:px-3 px-6 relative">
                         <div className='md:pl-0 sm:pl-[130px] pl-[70px]'>
                             <div data-aos="zoom-in" className='flex sm:flex-row flex-col sm:items-center xl:gap-[45px] lg:gap-[25px] gap-[14px] relative z-10'>
