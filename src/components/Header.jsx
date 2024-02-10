@@ -12,8 +12,6 @@ export const Header = () => {
         <div className="flex items-center md:items-end max-lg:justify-center">
           <img
             data-aos="fade-up"
-            data-aos-duration="2000"
-            data-aos-delay="200"
             className="w-full myaeroplane max-w-[250px] md:max-w-[394px] max-h-[170px] md:max-h-[240px] animate-flip3"
             src={aeroplane}
             alt="aeroplane"
