@@ -40,7 +40,7 @@ function Faq() {
 
   return (
     <div id="faq" className="relative">
-      <div className="max-w-[1140px] mx-auto px-3  lg:pt-[310px] md:pt-[200px] sm:pt-[150px] pt-[100px]">
+      <div className="max-w-[1140px] mx-auto px-3  lg:pt-[250px] md:pt-[200px] sm:pt-[150px] pt-[100px]">
         <h2 className="sm:text-[64px] text-[40px] leading-[132%] text-center font-normal font-chewy text-white lg:mb-[61px] mb-[35px]">
           FAQs
         </h2>

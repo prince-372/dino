@@ -24,27 +24,27 @@ export const Header = () => {
           className=" font-dino text-[100px] sm:text-[120px] md:text-[150px] lg:text-[175.64px] font-normal leading-[106.13px] sm:leading-[126.13px] md:leading-[146.13px] lg:leading-[166.13px]  ml-3 sm:ml-6 flex flex-col text-center uppercase drop-shadow-[0px_6px_0px_#000000]"
         >
           <span>
-            <span className="text-[#FBA11D] duration-300 hover:text-[#D45B07]">
+            <span className="text-[#FBA11D] ">
               D
             </span>
-            <span className=" text-[#23AAAC] duration-300 hover:text-[#8EC627]">
+            <span className=" text-[#23AAAC] ">
               i
             </span>
-            <span className=" text-[#D45B07] duration-300 hover:text-[#8F78D2]">
+            <span className=" text-[#D45B07] ">
               n
             </span>
-            <span className="text-[#8EC627] duration-300 hover:text-[#FCCA2B]">
+            <span className="text-[#8EC627] ">
               o
             </span>
           </span>
           <span>
-            <span className="text-[#8EC627] duration-300 hover:text-[#D45B07]">
+            <span className="text-[#8EC627] ">
               L
             </span>
-            <span className="text-[#FCCA2B] duration-300 hover:text-[#23AAAC]">
+            <span className="text-[#FCCA2B] ">
               F
             </span>
-            <span className="text-[#8F78D2] duration-300 hover:text-[#FBA11D]">
+            <span className="text-[#8F78D2] ">
               G
             </span>
           </span>
