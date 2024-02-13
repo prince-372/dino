@@ -1,5 +1,6 @@
 import React from "react";
-import FooterForest from "../assets/image/footerforestimg.webp";
+import FooterForest from "../assets/image/footerimg.webp";
+import dino from "../assets/image/diyno2.webp";
 import { FooterDiscod, FooterTwiter, Footerinstagram } from "./Icones";
 
 const Footer = () => {
@@ -51,6 +52,11 @@ const Footer = () => {
           src={FooterForest}
           alt="FooterForest"
           className="absolute 2xl:bottom-[-5%] bottom-0 left-0 right-0 w-full"
+        />
+        <img
+          className=" absolute bottom-0 right-0 animate-cycle"
+          src={dino}
+          alt="dino"
         />
       </div>
     </div>
