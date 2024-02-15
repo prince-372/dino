@@ -1,6 +1,6 @@
 import React from "react";
 import crocoWithGlasses from "../assets/image/diyno2.webp";
-import crocoWithCycle from "../assets/image/diyno.webp";
+import crocoWithCycle from "../assets/image/dino-cycle.webp";
 import utilityTree from "../assets/image/utility-tree.webp";
 import utilityLayer from "../assets/image/utilitylayer.webp";
 import TimelineLayer from "../assets/image/roadmaplayer.webp";

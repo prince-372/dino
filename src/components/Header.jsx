@@ -1,4 +1,4 @@
-import diyno from "../assets/image/diyno.webp";
+import diyno from "../assets/image/dino-cycle.webp";
 import aeroplane from "../assets/image/aeroplane.webp";
 import diyno2 from "../assets/image/diyno2.webp";
 import headerbottombg from "../assets/image/headerbottombg.webp";
@@ -53,25 +53,25 @@ export const Header = () => {
       <img
         className="absolute animate-cycle2 bottom-[12%] sm:bottom-[11%] md:bottom-[14%] lg:bottom-[20%] xl:bottom-[20%] right-[38%] z-[1] max-w-[60px] w-full  sm:max-w-[90px] md:max-w-[111px] lg:max-w-[131px] animate-flip3"
         src={diyno}
-        alt=""
+        alt="diyno"
       />
       <img
         className="absolute animate-cycle bottom-[5%] sm:bottom-[9%] md:bottom-[11%] xl:bottom-[15%] z-[1] right-10 md:right-20 max-w-[80px] sm:max-w-[120px] w-full lg:max-w-[211px] lg:w-[14%] 2xl:w-full"
         src={diyno2}
-        alt=""
+        alt="diyno2"
       />
       <div className="absolute left-0 right-0 z-0 -bottom-6">
         <img
           className="w-full max-md:min-h-[260px]"
           src={headerbottombg}
-          alt=""
+          alt="headerbottombg"
         />
       </div>
       <div className="absolute bottom-0 -right-2 -left-10">
         <img
           className="w-full min-h-[40px] md:min-h-[66px] xl:min-h-[134px]"
           src={bottomshadow}
-          alt=""
+          alt="bottomshadow"
         />
       </div>
       <img
