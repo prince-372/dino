@@ -11,7 +11,7 @@ const Footer = () => {
           data-aos="fade-down"
           className="container mx-auto xl:max-w-[1038px] xl:px-3 px-6 relative z-10 flex flex-col lg:gap-[33px] gap-[20px] justify-center items-center"
         >
-          <h2 className="font-dino sm:text-[80.366px] text-[70px] text-center leading-[95%] font-normal text-[#FBA11D] drop-shadow-[0px_1.337px_0px_#000]">
+          <h2 className="font-dino sm:text-[80.366px] text-[50px] text-center leading-[95%] font-normal text-[#FBA11D] drop-shadow-[0px_1.337px_0px_#000]">
             <span className=" text-[#FBA11D]">D</span>
             <span className="text-[#23AAAC]">i</span>
             <span className="text-[#D45B07]">n</span>

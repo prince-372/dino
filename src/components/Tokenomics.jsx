@@ -17,7 +17,7 @@ const Tokenomics = () => {
           className="max-w-[400px] absolute right-0 top-[16%]"
         />
         <img
-          src={TreeLayer }
+          src={TreeLayer}
           alt="TreeLayer"
           className=" absolute w-full left-0 right-0 bottom-0"
         />
@@ -53,7 +53,7 @@ const Tokenomics = () => {
                 className="absolute w-full mini-dino lg:top-[-29%] md:top-[-20%] md:left-[39%] top-[-42%] left-[37%] xl:max-w-[133.72px] lg:max-w-[100px] max-w-[80px]"
               />
               <div
-               data-aos="fade-down"
+                data-aos="fade-down"
                 className="lg:flex hidden absolute lg:top-[12%] top-[41%] xl:left-[-45%] lg:left-[-61%] left-[-40%] lg:gap-[26.11px] gap-[15px]"
               >
                 <div className="flex flex-col gap-[5px]">
@@ -79,7 +79,7 @@ const Tokenomics = () => {
                 </div>
               </div>
               <div
-              data-aos="fade-down"
+                data-aos="fade-down"
                 className="lg:flex hidden absolute xl:bottom-[-45%] lg:bottom-[-60%] bottom-[-28%] lg:left-[39%] xl:left-[42%] left-[38%] justify-center items-center flex-col gap-[17px]"
               >
                 <div className="bg-white h-[43px] w-[1px]"></div>
@@ -91,7 +91,7 @@ const Tokenomics = () => {
                 </div>
               </div>
               <div
-      data-aos="fade-down"
+                data-aos="fade-down"
                 className="lg:flex hidden absolute xl:bottom-[-27%] lg:bottom-[-54%]  bottom-[-17%] xl:left-[-27%] lg:left-[-42%] justify-center items-center gap-[17px]"
               >
                 <div className="flex flex-col gap-[5px]">
@@ -122,7 +122,7 @@ const Tokenomics = () => {
               </div>
             </div>
             <div
-             data-aos="fade-down"
+              data-aos="fade-down"
               className="lg:hidden flex justify-center w-full items-center mt-12"
             >
               <div className=" flex flex-col sm:gap-[35px] gap-[20px]">

@@ -14,13 +14,13 @@ const About = () => {
           <div className="flex items-center justify-center sm:flex-row flex-col sm:gap-[22px] gap-[5px]">
             <h3
               data-aos="fade-down"
-              className="font-chewy sm:text-[64px] text-[40px] font-normal text-white leading-[132%]"
+              className="font-chewy sm:text-[64px] text-[35px] font-normal text-white leading-[132%]"
             >
               About
             </h3>
             <h2
               data-aos="fade-down"
-              className="font-dino sm:text-[69.669px] text-[50px] mt-1 font-normal text-[#FBA11D] leading-[95%] drop-shadow-[0px_1.337px_0px_#fff]"
+              className="font-dino sm:text-[69.669px] text-[35px] mt-1 font-normal text-[#FBA11D] leading-[95%] drop-shadow-[0px_1.337px_0px_#fff]"
             >
               D<span className="text-[#23AAAC]">i</span>
               <span className="text-[#D45B07]">n</span>
