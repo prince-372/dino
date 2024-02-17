@@ -53,11 +53,6 @@ const Footer = () => {
           alt="FooterForest"
           className="absolute 2xl:bottom-[-5%] bottom-0 left-0 right-0 w-full"
         />
-        <img
-          className=" absolute bottom-0 right-0 animate-cycle"
-          src={dino}
-          alt="dino"
-        />
       </div>
     </div>
   );
