@@ -38,3 +38,6 @@ scroll-behavior: smooth;
     transform: rotate(-4deg);
   }
 }
+.bg-cover{
+  background-size: cover;
+}
