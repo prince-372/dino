@@ -7,7 +7,7 @@ import skyleft from "../assets/image/skyheaderleft.webp";
 import skyright from "../assets/image/skyheaderright.webp";
 export const Header = () => {
   return (
-    <header className="bg-[url(./assets/image/headerbg2.webp)] bg-cover bg-center w-full min-h-[730px] sm:min-h-[890px] 2xl:min-h-[100vh] relative overflow-hidden -top-[100px]">
+    <header className="bg-[url(./assets/image/headerbg2.webp)] bg-cover bg-center w-full min-h-[730px] sm:min-h-[890px] 2xl:min-h-[109vh] relative overflow-hidden -top-[100px]">
       <div className="grid grid-cols-1 sm:grid-cols-2 mx-auto px-3 container max-w-[1040px] z-[3] mt-[140px] sm:mt-[178px] relative gap-5">
         <div className="flex items-center md:items-end max-lg:justify-center">
           <img
@@ -24,34 +24,20 @@ export const Header = () => {
           className=" font-dino text-[100px] sm:text-[120px] md:text-[150px] lg:text-[175.64px] font-normal leading-[106.13px] sm:leading-[126.13px] md:leading-[146.13px] lg:leading-[166.13px]  ml-3 sm:ml-6 flex flex-col text-center uppercase drop-shadow-[0px_6px_0px_#000000]"
         >
           <span>
-            <span className="text-[#FBA11D] ">
-              D
-            </span>
-            <span className=" text-[#23AAAC] ">
-              i
-            </span>
-            <span className=" text-[#D45B07] ">
-              n
-            </span>
-            <span className="text-[#8EC627] ">
-              o
-            </span>
+            <span className="text-[#FBA11D] ">D</span>
+            <span className=" text-[#23AAAC] ">i</span>
+            <span className=" text-[#D45B07] ">n</span>
+            <span className="text-[#8EC627] ">o</span>
           </span>
           <span>
-            <span className="text-[#8EC627] ">
-              L
-            </span>
-            <span className="text-[#FCCA2B] ">
-              F
-            </span>
-            <span className="text-[#8F78D2] ">
-              G
-            </span>
+            <span className="text-[#8EC627] ">L</span>
+            <span className="text-[#FCCA2B] ">F</span>
+            <span className="text-[#8F78D2] ">G</span>
           </span>
         </h1>
       </div>
       <img
-        className="absolute animate-cycle2 bottom-[12%] sm:bottom-[11%] md:bottom-[14%] lg:bottom-[20%] xl:bottom-[20%] right-[38%] z-[1] max-w-[60px] w-full  sm:max-w-[90px] md:max-w-[111px] lg:max-w-[131px] animate-flip3"
+        className="absolute animate-cycle2 bottom-[12%] sm:bottom-[11%] md:bottom-[10%] lg:bottom-[15%] xl:bottom-[15%] right-[38%] z-[1] max-w-[60px] w-full  sm:max-w-[90px] md:max-w-[111px] lg:max-w-[131px] animate-flip3"
         src={diyno}
         alt="diyno"
       />
@@ -60,14 +46,14 @@ export const Header = () => {
         src={diyno2}
         alt="diyno2"
       />
-      <div className="absolute left-0 right-0 z-0 -bottom-6">
+      <div className="absolute left-0 right-0 z-0 -bottom-10">
         <img
           className="w-full max-md:min-h-[260px]"
           src={headerbottombg}
           alt="headerbottombg"
         />
       </div>
-      <div className="absolute bottom-0 -right-2 -left-10">
+      <div className="absolute min-[1400px]:bottom-[-55px] min-[1500px]:bottom-[-16px] xl:bottom-[-20px] bottom-[-9px] -right-2 -left-10">
         <img
           className="w-full min-h-[40px] md:min-h-[66px] xl:min-h-[134px]"
           src={bottomshadow}
